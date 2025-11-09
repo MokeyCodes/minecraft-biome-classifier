@@ -53,4 +53,4 @@ jupyter notebook models/pytorch.ipynb
 
 
 ## 🙌 Acknowledgements
-Originally inspired by the Blockography AI Hackathon.
+Done during the Blockography AI Hackathon hosted by ACM AI at University of California, San Diego.
