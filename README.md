@@ -28,7 +28,7 @@ Developed as part of a hackathon challenge where participants built machine lear
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/<your-username>/minecraft-biome-classifier.git
+git clone https://github.com/<MokeyCodes>/minecraft-biome-classifier.git
 cd minecraft-biome-classifier
 pip install -r requirements.txt
 
