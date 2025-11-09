@@ -31,7 +31,7 @@ Developed as part of a hackathon challenge where participants built machine lear
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/<MokeyCodes>/minecraft-biome-classifier.git
+git clone https://github.com/MokeyCodes/minecraft-biome-classifier.git
 cd minecraft-biome-classifier
 
 ```

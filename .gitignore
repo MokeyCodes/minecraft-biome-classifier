@@ -1,9 +1,32 @@
+# System / Editor
 .DS_Store
-*.pyc
-__pycache__/
 .vscode/
-eval_data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Datasets (too large for GitHub)
 train_data/
-ridge_predictions.csv
-xgboost_predictions.csv
-rf_predictions.csv
+eval_data/
+
+# Output and predictions
+output/
+*.csv
+*.pth  # model weights (upload separately via releases if needed)
+
+# Unused models
+models/rf.ipynb
+models/ridge.ipynb
+models/xgboost.ipynb
+userkits/EDA.ipynb
+
+# Virtual environment / dependencies
+venv/
+.env/
+*.env

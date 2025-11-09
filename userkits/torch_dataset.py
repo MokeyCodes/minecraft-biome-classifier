@@ -145,6 +145,7 @@ class MinecraftTorchDataset(Dataset):
                 image_tensor = self.transform(image_tensor)
             
             return image_tensor, label, file_id
+
         
         else:
             raise ValueError(f"Unsupported return_type: {self.return_type}")
