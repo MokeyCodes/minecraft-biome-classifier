@@ -19,10 +19,10 @@ Developed as part of a hackathon challenge where participants built machine lear
 - **Augmentations:** Resize, Normalize, Random Flip, Random Rotation
 
 ## 📂 Folder Structure
-assets/ # Hackathon logo and visuals
-models/ # Jupyter notebooks & trained model (.pth)
-output/ # Sample and generated prediction CSVs
-userkits/ # Custom dataset + utils for PyTorch
+- assets/ # Hackathon logo and visuals
+- models/ # Jupyter notebooks & trained model (.pth)
+- output/ # Sample and generated prediction CSVs
+- userkits/ # Custom dataset + utils for PyTorch
 
 
 ## ⚙️ Installation
@@ -33,7 +33,7 @@ cd minecraft-biome-classifier
 pip install -r requirements.txt
 
 jupyter notebook models/pytorch.ipynb
-
+```
 ## Results
 
 | Metric              | Score  |
@@ -41,5 +41,5 @@ jupyter notebook models/pytorch.ipynb
 | Public Leaderboard  | 0.8058 |
 | Private Leaderboard | 0.8454 |
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Originally inspired by the Blockography AI Hackathon.
